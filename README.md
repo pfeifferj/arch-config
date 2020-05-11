@@ -3,8 +3,7 @@
 - Settings for:
 	- vim/nvim (text editor)
 	- zsh (shell)
-	- i3wm/i3-gaps (window manager)
-	- i3blocks (status bar)
+	- dwm (window manager)
 	- sxhkd (general key binder)
 	- ranger (file manager)
 	- lf (file manager)
