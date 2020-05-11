@@ -54,6 +54,12 @@ export MOZ_USE_XINPUT2="1"		# Mozilla smooth scrolling/touchpads.
 export _JAVA_AWT_WM_NONREPARENTING=1	# Java doesn't understand tiling windows
 export AWT_TOOLKIT="MToolkit wmname LG3D"	#May have to install wmname
 
+mpd >/dev/null 2>&1 &
+
+[ ! -f ~/.config/shortcutrc ] && shortcuts >/dev/null 2>&1
+
+echo "$0" | grep "bash$" >/dev/null && [ -f ~/.bashrc ] && source "$HOME/.bashrc"
+
 # This is the list for lf icons:
 export LF_ICONS="di=📁:\
 fi=📃:\
